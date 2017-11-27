@@ -1,0 +1,112 @@
+body{
+     background: #ec6f66; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #ec6f66, #f3a183); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #ec6f66, #f3a183); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.navbar {
+   background: transparent;
+   border-color: transparent;
+   font-size: 1.2em;
+   padding: 10px;
+}
+
+.navbar .navbar-brand{
+    font-size: 1.2em;
+}
+
+.navbar li { color: #000 }
+
+.nav-item-right{
+    padding-left: 10px;
+
+}
+
+.navbar{
+        border: none;
+        border-radius: 0;
+        background-color: rgba(0,0,0,0.5);
+}
+
+.nav-item-left{
+    padding-right: 10px;
+}
+
+.rounded{
+    border-radius: 20px;
+}
+
+
+#signup-heading{
+    text-align: center;
+    color:white;
+    letter-spacing: 3px;
+    margin-bottom: 30px;
+    text-shadow: 2px 2px #4d4d4d;
+}
+
+#signup-page{
+    top: 40%;
+    left: 40%;
+}
+
+
+
+#welcome{
+    position: fixed;
+    top: 40%;
+    left: 40%;
+}
+
+#second-section{
+   background: #ec6f66; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #ec6f66, #f3a183); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #ec6f66, #f3a183); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+#title{
+    text-align: center;
+    font-family: "Oxygen";
+    font-weight: bold;
+    letter-spacing: 3px;
+    color:white;
+    text-shadow: 2px 2px #4d4d4d;
+}
+
+#subtitle{
+    text-align: center;
+    margin-top: 15px;
+    font-family: Montserrat;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: white;
+    text-shadow: 2px 2px #4d4d4d;
+}
+
+#showcase-btns{
+    padding:20px;
+    text-align: center
+}
+
+#signup{
+    padding-top: 200px;
+    width: 30%;
+    margin: 30px auto;
+}
+
+
+
+.btn-space{
+    margin-right: 10px;
+    margin-left: 5px;
+    
+}
+
+.form-btns{
+    padding-top: 50px;
+}
+
+.btn .btn-primary{
+    border: 2px solid rgba(91, 192, 222, 0.75);
+  border-radius: 40px;
+}
