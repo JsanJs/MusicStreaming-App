@@ -76,9 +76,14 @@ background: -webkit-linear-gradient(to right, #ec6f66, #f3a183); /* Chrome 10-25
 #third-section{
     margin-bottom: 0px;
     text-align: center;
-    ackground: #ec6f66;  /*fallback for old browsers */ 
+    color:white;
+    background: #ec6f66;  /*fallback for old browsers */ 
 background: -webkit-linear-gradient(to right, #ec6f66, #f3a183); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #ec6f66, #f3a183); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.third-section-header{
+    text-shadow: 2px 2px #4d4d4d;
 }
 
 #fourth-section{
@@ -124,6 +129,7 @@ background: -webkit-linear-gradient(to right, #ec6f66, #f3a183); /* Chrome 10-25
     width: 30%;
     margin: 30px auto;
 }
+
 
 
 
