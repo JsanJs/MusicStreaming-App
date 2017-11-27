@@ -1,8 +1,8 @@
 body{
-     background: #ec6f66; /* fallback for old browsers */
+     background: #ec6f66;  /*fallback for old browsers */ 
   background: -webkit-linear-gradient(to right, #ec6f66, #f3a183); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #ec6f66, #f3a183); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-}
+} *
 
 .navbar {
    background: transparent;
@@ -28,6 +28,10 @@ body{
         background-color: rgba(0,0,0,0.5);
 }
 
+footer{
+    background-color:black;
+}
+
 .nav-item-left{
     padding-right: 10px;
 }
@@ -50,18 +54,45 @@ body{
     left: 40%;
 }
 
+.jumbtron .container{
+    border-radius: 0px;
+}
 
 
-#welcome{
-    position: fixed;
-    top: 40%;
-    left: 40%;
+#first-section{
+    left: 0%;
+    right: 0%;
+    padding-top: 10%;
+    background: #ec6f66;  /*fallback for old browsers */ 
+background: -webkit-linear-gradient(to right, #ec6f66, #f3a183); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #ec6f66, #f3a183); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 #second-section{
-   background: #ec6f66; /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #ec6f66, #f3a183); /* Chrome 10-25, Safari 5.1-6 */
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+#third-section{
+    margin-bottom: 0px;
+    text-align: center;
+    ackground: #ec6f66;  /*fallback for old browsers */ 
+background: -webkit-linear-gradient(to right, #ec6f66, #f3a183); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #ec6f66, #f3a183); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+#fourth-section{
+    margin-bottom: 0px;
+   background-color: black;
+}
+
+#first-info{
+    font-family: Oxygen;
+    letter-spacing: 2px;
+}
+
+#p-info{
+    padding-top: 40px;
 }
 
 #title{
