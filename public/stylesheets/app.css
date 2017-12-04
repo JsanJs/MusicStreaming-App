@@ -98,6 +98,13 @@ background: linear-gradient(to right, #A43931, #1D4350); /* W3C, IE 10+/ Edge, F
 #fourth-section{
     margin-bottom: 0px;
    background-color: black;
+   color: white;
+   padding-top: 10px;
+   padding-bottom: 10px;
+}
+
+#copyright{
+    padding-top: 10px;
 }
 
 #first-info{
@@ -134,7 +141,9 @@ background: linear-gradient(to right, #A43931, #1D4350); /* W3C, IE 10+/ Edge, F
 
 #showcase-btns{
     padding:20px;
-    text-align: center
+    margin-left: 25%;
+    text-align: center;
+    width: 50%;
 }
 
 #signup{
